@@ -1,0 +1,100 @@
+#body{
+    margin: 0;
+    background-color: rgb(242, 242, 242);
+    font-family: 'public sans';
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    position: absolute;
+    left: 10em;
+    top: 5em;
+    background: rgb(245, 245, 245);
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
+.title{
+    color: #2C5F66;
+    text-align: center;
+}
+.title-2{
+    color: #DDC77A;
+}
+
+input{
+border: none;
+outline: none;
+background: rgb(245, 245, 245);
+}
+
+#user{
+    width: 3em;
+    position: absolute;
+    left: 15em;
+    opacity: .5;
+}
+#password{
+    width: 3em;
+    position: absolute;
+    left: 15em;
+    opacity: .5;
+}
+#calendar{
+    width: 3em;
+    position: relative;
+    left: 17em;
+    bottom: 2.6em;
+    opacity: .5;
+}
+
+#line{
+    height: 12em;
+    width: 2em;
+    position: absolue;
+    left: .5em;
+}
+
+#unc{
+ 
+    width: 30em;
+    position: absolute;
+    left: 48em;
+    z-index: -1;
+    margin: 1em 0 0 0;
+   
+}
+
+#button1{
+    border: none;
+    background-color: #2C5F66;
+    color: white;
+}
+
+#button2{
+    border: none;
+    background-color: #DDC77A;
+    color: #2C5F66;
+}
+button:hover{
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.5);
+}
+
+#footer{
+    position: relative;
+    top:35em;
+    background-color: #2C5F66;
+    margin: 0;
+    height: 4em;
+    z-index: 1;
+}
+
+#unc2{
+    position: relative;
+    width: 12em;
+    z-index: 1;
+}
